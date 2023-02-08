@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.keyboard-background {
+  height: 410px;
+  width: 1150px;
+  border-radius: 10px;
+  background-color: #d2d2d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.keyColor {
+  background-color: #404040;
+  color: #ffffff;
+}
+button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #404040b5;
+  font-size: 16px;
+}
+
+.first-row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.Esc {
+  height: 30px;
+  width: 70px;
+}
+.F {
+  height: 30px;
+  width: 60px;
+}
+.insect {
+  height: 30px;
+  width: 70px;
+}
+.prinSc {
+  height: 30px;
+  width: 70px;
+}
+.on-off {
+  height: 30px;
+  width: 90px;
+}
+
+.onoff-logo{
+    width: 20px;
+}
+.second-row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+.number {
+  height: 60px;
+  width: 60px;
+}
+
+.symbol1 {
+  height: 60px;
+  width: 100px;
+}
+.symbol2 {
+  height: 60px;
+  width: 80px;
+}
+.symbol3 {
+  height: 60px;
+  width: 80px;
+}
+.backspace {
+  height: 60px;
+  width: 170px;
+}
+
+.third-row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+.tab {
+  height: 60px;
+  width: 125px;
+}
+.letter {
+  height: 60px;
+  width: 60px;
+}
+.symbol4 {
+  height: 60px;
+  width: 60px;
+}
+.symbol5 {
+  height: 60px;
+  width: 60px;
+}
+.symbol6 {
+  height: 60px;
+  width: 180px;
+}
+
+.fourth-row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+.CapsLock {
+  height: 60px;
+  width: 165px;
+}
+.letter {
+  height: 60px;
+  width: 60px;
+}
+.symbol7 {
+  height: 60px;
+  width: 60px;
+}
+.symbol8 {
+  height: 60px;
+  width: 60px;
+}
+.Enter {
+  height: 60px;
+  width: 210px;
+}
+
+.fifth-row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+.Shift1 {
+  height: 60px;
+  width: 220px;
+}
+.letter {
+  height: 60px;
+  width: 60px;
+}
+.symbol9 {
+  height: 60px;
+  width: 60px;
+}
+.symbol10 {
+  height: 60px;
+  width: 60px;
+}
+.symbol11 {
+  height: 60px;
+  width: 60px;
+}
+
+.Shift2 {
+  height: 60px;
+  width: 220px;
+}
+
+.sixth-row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+.Ctrl1 {
+  height: 60px;
+  width: 60px;
+}
+.Fn {
+  height: 60px;
+  width: 60px;
+}
+.Windows {
+  height: 60px;
+  width: 60px;
+}
+
+.Windows-logo {
+  height: 30px;
+  width: 30px;
+}
+.Alt1 {
+  height: 60px;
+  width: 60px;
+}
+.space {
+  height: 60px;
+  width: 480px;
+}
+.Alt2 {
+  height: 60px;
+  width: 60px;
+}
+
+.Ctrl2 {
+  height: 60px;
+  width: 60px;
+}
+.Arrow-V {
+  height: 60px;
+  width: 50px;
+}
+
+.ArrowG-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.Arrow-G {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 28px;
+}
